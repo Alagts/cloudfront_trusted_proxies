@@ -20,6 +20,12 @@
             "homepage": "https://www.marketing-factory.de"
         }
     ],
+    "support": {
+        "issues": "https://github.com/marketing-factory/cloudfront_trusted_proxies/issues",
+        "source": "https://github.com/marketing-factory/cloudfront_trusted_proxies",
+        "docs": "https://docs.typo3.org/p/mfd/cloudfront-trusted-proxies/main/en-us/",
+        "security": "https://github.com/marketing-factory/cloudfront_trusted_proxies/blob/main/SECURITY.md"
+    },
     "require": {
         "php": "^8.3",
         "typo3/cms-core": "^13.0"
