@@ -1,8 +1,25 @@
 {
+    "$schema": "https://getcomposer.org/schema.json",
     "name": "mfd/cloudfront-trusted-proxies",
     "description": "Trust AWS CloudFront's published edge IP ranges as reverse proxies",
     "type": "typo3-cms-extension",
     "license": "GPL-2.0-or-later",
+    "version": "1.0.0",
+    "keywords": [
+        "TYPO3 CMS",
+        "Extension",
+        "AWS",
+        "CloudFront",
+        "reverseProxyIP"
+    ],
+    "authors": [
+        {
+            "name": "Ingo Schmitt",
+            "role": "Developer",
+            "email": "ingo.schmitt@marketing-factory.de",
+            "homepage": "https://www.marketing-factory.de"
+        }
+    ],
     "require": {
         "php": "^8.3",
         "typo3/cms-core": "^13.0"

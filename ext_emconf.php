@@ -7,11 +7,11 @@ if (!isset($_EXTKEY)) {
 $EM_CONF[$_EXTKEY] = [
     'title' => 'CloudFront trusted proxies',
     'description' => "Trust AWS CloudFront's published edge IP ranges as reverse proxies",
-    'category' => 'frontend',
-    'author' => '',
-    'author_email' => '',
-    'state' => 'alpha',
-    'clearCacheOnLoad' => 0,
+    'category' => 'misc',
+    'author' => 'Ingo Schmitt',
+    'author_email' => 'ingo.schmitt@marketing-factory.de',
+    'state' => 'beta',
+    'clearCacheOnLoad' => 1,
     'version' => '1.0.0',
     'constraints' => [
         'depends' => [
