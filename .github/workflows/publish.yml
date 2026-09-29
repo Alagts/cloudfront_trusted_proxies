@@ -40,14 +40,6 @@ jobs:
           extensions: intl, mbstring, json, zip, curl
           tools: composer:v2, typo3/tailor, clue/phar-composer
 
-      - name: Download vendor files
-        run: |
-          composer install -d Resources/Private/Libs/Build
-          composer global exec phar-composer build Resources/Private/Libs/Build Resources/Private/Libs/vendors.phar
-      - name: Include PHAR file
-        run: echo "Mfd\Ai\FileMetadata\Extension::loadVendorLibraries();" >> ext_localconf.php
-
-
       - name: Publish to TER
         run: |
           php ~/.composer/vendor/bin/tailor set-version "${{ steps.get-version.outputs.version }}"
