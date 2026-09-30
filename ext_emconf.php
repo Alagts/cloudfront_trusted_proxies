@@ -1,9 +1,5 @@
 <?php
 
-if (!isset($_EXTKEY)) {
-    $_EXTKEY = 'cloudfront_trusted_proxies';
-}
-
 $EM_CONF[$_EXTKEY] = [
     'title' => 'CloudFront trusted proxies',
     'description' => "Trust AWS CloudFront's published edge IP ranges as reverse proxies",
