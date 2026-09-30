@@ -14,7 +14,7 @@ Requirements
 ============
 
 * PHP ^8.3
-* TYPO3 ^13.0
+* TYPO3 ^13.0 || ^14.0
 
 After installation, the extension is active by default (see
 :ref:`Configuration <configuration>` for how to disable it) — no database

@@ -23,3 +23,8 @@ For security vulnerabilities, please follow the process described in
 instead of filing a public issue.
 
 Thanks!
+
+Maintainer
+----------
+Maintained by `Marketing Factory Digital GmbH <https://www.marketing-factory.de>`__,
+written by `Ingo Schmitt <https://www.marketing-factory.de/blog/autoren/ingo-schmitt/>`__.
