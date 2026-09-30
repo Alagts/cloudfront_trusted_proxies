@@ -11,7 +11,7 @@ The list is read from AWS on the first request and then stored in TYPO3's cachin
 ## Requirements
 
 - PHP ^8.3
-- TYPO3 ^13.0
+- TYPO3 ^13.0 || ^14.0
 
 ## Installation
 
@@ -46,3 +46,7 @@ composer test:unit
 ## License
 
 [GPL-2.0-or-later](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+
+## Maintainer
+
+Maintained by [Marketing Factory Digital GmbH](https://www.marketing-factory.de), written by [Ingo Schmitt](https://www.marketing-factory.de/blog/autoren/ingo-schmitt/).
