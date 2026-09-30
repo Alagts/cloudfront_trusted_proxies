@@ -35,6 +35,9 @@
         "phpunit/phpunit": "^11.0",
         "guzzlehttp/psr7": "^2.10"
     },
+    "suggest": {
+        "mfd/cdn-utils": "*"
+    },
     "autoload": {
         "psr-4": {
             "Mfd\\CloudfrontTrustedProxies\\": "Classes/"
